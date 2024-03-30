@@ -571,5 +571,6 @@ body{
   background-size: cover; /* Cover the entire viewport */
   background-position: center; /* Center the background image */
   font-family: Arial, sans-serif; /* Optional: Define a font */
+   background-repeat: no-repeat;
 
 }
