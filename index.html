@@ -5,7 +5,8 @@
         <link rel="icon" type="image/png" href=".//images/VR Goo (18).jpg ">
         <!-- Required meta tags -->
         <meta charset="utf-8" />
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link
@@ -19,7 +20,7 @@
             .header {
                 ul {
     padding: 0;
-    margin-left: 25px;
+    
     list-style-type: none;
     display: block;
     background-color: antiquewhite;
@@ -76,6 +77,8 @@ ul li {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  overflow: hidden;
+  width: auto;
 }
 
 /* Style the links inside the dropdown */
@@ -114,12 +117,13 @@ ul li {
 }
 .viv{
      display: flex;
-     height: 150px;
+     height: auto;
     width: auto;
     margin: 0px;
     padding: 0px;
     justify-content: center;
     background-color: azure;
+    overflow: hidden;
 
     
   
@@ -140,7 +144,7 @@ ul li {
   height: auto;
     width: auto;
     justify-content: center;
-    background: url(./hiren-harsora-sqTxn6pcxVM-unsplash.jpg);
+    background: url(./images/hiren-harsora-sqTxn6pcxVM-unsplash.jpg);
     border-radius: 0px 25px 25px 0px;
     justify-items: center;
     justify-self: center;
@@ -150,7 +154,8 @@ ul li {
 
 .vive{
   display: inline-flex;
-      width: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 button {
   background-color: #fff;
@@ -205,6 +210,8 @@ button:hover {
     </head>
 
     <body>
+      <div class="container">
+        <div class="content">
         <header>
             <div class="elementor-widget-container snipcss-jKPYd" style="margin-top: 20px; display: block;">
                 <link rel="stylesheet" href="https://trip4travel.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
@@ -247,12 +254,12 @@ button:hover {
                         </div>
                       </div>
                        </li>
-                       <li style="float: right; margin-right: 25px;"><div class="dropdown">
-                        <a href="#" class="dropbtn">Admin</a>
-                        <div class="dropdown-content">
+                       <li style="float: right; align-self: flex-end; "><div class="dropdown">
+                        <a href="#" class="dropbtn" >Admin</a>
+                        <div class="dropdown-content" >
                           <a href="./sign up.html">register</a>
-                          <a href="./login.html">login</a>
-                          <a href="#">about us</a>
+                          <a href="./login.html" >login</a>
+                          <a href="#"  >about us</a>
                         </div>
                       </div>
                        </li>
@@ -284,7 +291,7 @@ button:hover {
                    <img src="./images/goa-tour-package.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                   <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                   <ul >
                     <li>3 Days 2 Nights</li>
                     <li> 
                       3* Accomandation
@@ -307,7 +314,7 @@ button:hover {
                    <img src="./images/hiren-harsora-sqTxn6pcxVM-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul >
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -329,7 +336,7 @@ button:hover {
                    <img src="./images/raja-sen-FYos6AbcDsY-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul>
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -351,7 +358,7 @@ button:hover {
                    <img src="./images/anantha-krishna-a-y6NZHThhLj4-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul >
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -375,7 +382,7 @@ button:hover {
                    <img src="./images/goa-tour-package.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                   <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                   <ul >
                     <li>3 Days 2 Nights</li>
                     <li> 
                       3* Accomandation
@@ -398,7 +405,7 @@ button:hover {
                    <img src="./images/hiren-harsora-sqTxn6pcxVM-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul >
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -420,7 +427,7 @@ button:hover {
                    <img src="./images/raja-sen-FYos6AbcDsY-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul >
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -442,7 +449,7 @@ button:hover {
                    <img src="./images/anantha-krishna-a-y6NZHThhLj4-unsplash.jpg" alt="" height="180px" width="300px"> 
                   </div>
                   <div class="card-back">
-                    <ul style="margin: 0%; margin-left: 8px; padding: 0;">
+                    <ul >
                       <li>3 Days 2 Nights</li>
                       <li> 
                         3* Accomandation
@@ -481,6 +488,8 @@ button:hover {
             </div>
             
         </main>
+      </div>
+    </div>
         <footer>
             <!-- place footer here -->
         </footer>
